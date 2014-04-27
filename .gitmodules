@@ -1,0 +1,4 @@
+[submodule "projects"]
+	path = projects
+	url = git@github.com:planeon/projects.git
+	branch = master
