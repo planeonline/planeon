@@ -2,3 +2,7 @@
 	path = projects
 	url = git@github.com:planeon/projects.git
 	branch = master
+[submodule "vagrant"]
+	path = vagrant
+	url = git@github.com:planeon/vagrant.git
+	branch = master
