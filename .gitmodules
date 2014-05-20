@@ -1,8 +1,8 @@
 [submodule "projects"]
 	path = projects
-	url = git@github.com:planeon/projects.git
+	url = git@github.com:planeonline/projects.git
 	branch = master
 [submodule "vagrant"]
 	path = vagrant
-	url = git@github.com:planeon/vagrant.git
+	url = git@github.com:planeonline/vagrant.git
 	branch = master
