@@ -9,7 +9,7 @@ In order to make it easier to clone all required repositories to have an up and 
 Running following commands will clone all required repositories and their submodules setup & run the required virtual machin using [vagrant](https://github.com/planeonline/vagrant)
 
 ``` bash
-git clone --recurse-submodules git@github.com:planeonline/planeon.git
+git clone --recurse-submodules https://github.com/planeonline/planeon.git
 cd planeon
 git submodule foreach --recursive git checkout master
 cd vagrant
