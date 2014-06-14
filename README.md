@@ -22,7 +22,8 @@ vagrant ssh
 
 Resolving Domains
 -
-By ading following loopbackes to the host machine's hosts file e.g. /etc/hosts
+By adding following loopbackes to the host machine's hosts file e.g. /etc/hosts
+we will get access to diffeerent services while the virtual machine is running
 ```
 192.168.33.80 service.planeonline.local service.planeonline.local sl.planeonline.local  
 192.168.33.80 ci.planeonline.local jenkins.planeonline.local service-layer-ci.planeonline.local sl-ci.planeonline.local s-ci.planeonline.local service-ci.planeonline.local 
