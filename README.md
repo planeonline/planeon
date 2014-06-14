@@ -20,6 +20,15 @@ vagrant reload --no-provision
 vagrant ssh
 ```
 
+Resolving Domains
+-
+By ading following loopbackes to the host machine's hosts file e.g. /etc/hosts
+```
+192.168.33.80 service.planeonline.local service.planeonline.local sl.planeonline.local  
+192.168.33.80 ci.planeonline.local jenkins.planeonline.local service-layer-ci.planeonline.local sl-ci.planeonline.local s-ci.planeonline.local service-ci.planeonline.local 
+192.168.33.80 git.planeonline.local repo.planeonline.loca 
+```
+
 Migrate dev environment's database
 -
 ```
